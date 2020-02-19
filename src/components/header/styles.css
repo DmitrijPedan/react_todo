@@ -4,3 +4,39 @@ header {
     top: 0;
     width: 100%;
 }
+
+.header-menu {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu > div {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.header-logo {
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-logo span {
+    color: rgb(207, 143, 5);
+    font-weight: 800;
+}
+
+.add-task-btn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 143, 5);
+}
